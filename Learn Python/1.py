@@ -9,3 +9,4 @@ panjang = 1000
 print("nilai a =", a)
 print("nilai x =", x)
 print("nilai panjang =", panjang)
+
