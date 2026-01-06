@@ -6,6 +6,11 @@ a = 10
 x = 5
 panjang = 1000
 
+nama = "iMen"
+berat = 60
+tinggi = 170.5
+# bila data berisi angka maka tidak perlu tanda petik ("")
+
 print("nilai a =", a)
 print("nilai x =", x)
 print("nilai panjang =", panjang)
