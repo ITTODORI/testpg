@@ -57,3 +57,25 @@ print(nama.title())
 # Capitalize
 nama_capitalize = nama.capitalize()
 print(nama.capitalize())
+
+# Strip
+nama = "  iMen  "
+nama_strip = nama.strip()
+print(nama_strip)
+
+# Replace
+kalimat = "Programer Handal Enggan Ngoding"
+kalimat_baru = kalimat.replace("Handal", "Scroll Fusnuk")
+print(kalimat_baru)
+
+# Count
+kalimat = "Programer Handal Enggan Ngoding"
+jumlah_a = jumlah.count("a")
+print(jumlah.a)
+
+# Find
+kalimat = "Programer Handal Enggan Ngoding"
+posisi = kalimat.find("Ngoding")
+print(posisi)
+
+# Escape Characters
