@@ -91,3 +91,16 @@ pesan = "Pada gila Wanita gue gila \'Coding\'"
 print(pesan)
 
 # Interpolation
+# F-String
+pekerja = 19000000
+pohon = "Sawit"
+lokasi = "Sumatra"
+
+notice = "kita akan kerahkan {pekerja} pekerja untuk menanam pohon {pohon} di daerah {lokasi} sana.\n {pohon} juga pohon kan, berdaun."
+print(notice)
+# F-String by Expressions
+sawit = 76000
+lahan = 250
+
+total = f"Total : Rp {sawit * lahan:,}"
+print (total)
