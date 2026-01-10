@@ -79,3 +79,15 @@ posisi = kalimat.find("Ngoding")
 print(posisi)
 
 # Escape Characters
+kalimat = "mana info\nloker 19jt"
+print(kalimat)
+# Tabs
+kalimat = "nama\t= iMen\nberat\t= 170cm"
+print(kalimat)
+# Backslash
+lokasi = "C:\\iMen\\coding" # Error code [lokasi = "C:\iMen\coding]"
+# String
+pesan = "Pada gila Wanita gue gila \'Coding\'"
+print(pesan)
+
+# Interpolation
