@@ -104,3 +104,12 @@ lahan = 250
 
 total = f"Total : Rp {sawit * lahan:,}"
 print (total)
+
+pekerja = 19000000
+pohon = "Sawit"
+lokasi = "Sumatra"
+
+pekerja_19jt = f"{pekerja:,}".replace(",", ".")
+
+notice = f"kita akan kerahkan {pekerja_19jt} pekerja untuk menanam pohon {pohon} di daerah {lokasi} sana.\n Kelapa {pohon} itu pohon, ada daunnya."
+print(notice)
