@@ -93,10 +93,10 @@ print(pesan)
 # Interpolation
 # F-String
 pekerja = 19000000
-pohon = "Sawit"
-lokasi = "Sumatra"
+peduli = "Apa peduli?"
+quote = "u’re still stronger."
 
-notice = "kita akan kerahkan {pekerja} pekerja untuk menanam pohon {pohon} di daerah {lokasi} sana.\n {pohon} juga pohon kan, berdaun."
+notice = f"lu ngapain ngemis-ngemis? mereka {peduli}?\n  Itu hak kalian yang pantas untuk bersandar. Jika pun tidak selamat {quote}."
 print(notice)
 # F-String by Expressions
 sawit = 76000
