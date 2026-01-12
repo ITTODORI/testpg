@@ -113,3 +113,7 @@ pekerja_19jt = f"{pekerja:,}".replace(",", ".")
 
 notice = f"kita akan kerahkan {pekerja_19jt} pekerja untuk menanam pohon {pohon} di daerah {lokasi} sana.\n Kelapa {pohon} itu pohon, ada daunnya."
 print(notice)
+
+nama = "Jokowi"
+
+notice = f"hidup{nama.upper()}"
