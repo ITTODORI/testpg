@@ -55,3 +55,39 @@ print(code3 != code2)
 # 4\ Operator Logic
 pekerja = 19000000
 print(pekerja > 19000000 and pekerja < 100000)
+
+umur = 25
+print(umur > 25 and umur < 30)
+
+hari = "sabtu"
+print(hari == "sabtu" or hari == "minggu")
+
+aktif = True
+print(not aktif)
+
+# 5\ Operator String
+# Concatenation(+)
+pekerja = "19jt pekerja"
+loker = "Deforestasi Sawit"
+info = pekerja + "" + loker
+print(info)
+
+# Repetition(*)
+lahan = "-"
+print(lahan*30)
+
+# Membership(in)
+info = "Program Deforestasi Sawit akan di laksanakan pada daerah bencana Sumatra"
+print("Deforestasi" in info)
+print("19juta pekerja" in info) #false
+print("Sawit" in info)
+
+# 6\ Precedance Operator
+# Pangkat (**)
+
+# Perkalian dan Pembagian (*,/,//,%)
+# Penjumlahan dan Pengurangan (+,-)
+# Perbandingan (==, !=, >, <, <=, >=)
+# Logic not
+# Logic and
+# Logic or
