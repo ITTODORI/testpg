@@ -51,3 +51,14 @@ if username == "loker":
         print("Mana 19jt loker yang kau janjikan itu?!")
 else:
     print("Indonesia CEMAS KAU DEK !!")
+
+# 6\ Match Case
+gaji = input("Masuk kerja: ").lower()
+
+match gaji:
+    case "senin" | "selasa" | "rabu" | "kamis" | "jumat" :
+        print("Hari Gajian")
+    case "sabtu" | "ahad" :
+        print("Gaji Lemburan")
+    case _:
+        print("Hari tidak Kerja")
