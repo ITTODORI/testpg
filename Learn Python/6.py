@@ -32,7 +32,7 @@ else:
 
 # 4\ Operator Logic
 umur = int(input("Masukan umur: "))
-ijazah = input("Punya Ijazah? (asli/palsu): ")
+ijazah = input("Punya Ijazah? (ya/tidak): ")
 
 if umur >= 17 and ijazah == "asli":
     print("Boleh bekerja")
@@ -40,3 +40,14 @@ else:
     print("Ijazahmu palsu ngn***")
 
 # 5\ Nested if
+username = input("Username: ")
+password = input("Password: ")
+
+if username == "loker":
+    if password == "19juta":
+        print("Login berhasil")
+        print("Selamat, Berjuang, dan Sukses Selalu (mencariLOKER)")
+    else:
+        print("Mana 19jt loker yang kau janjikan itu?!")
+else:
+    print("Database telah Bocor")
