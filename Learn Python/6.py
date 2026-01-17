@@ -62,3 +62,9 @@ match gaji:
         print("Gaji Lemburan")
     case _:
         print("Hari tidak Kerja")
+
+# 7\ Conditional Expression (Ternary Operator)
+pajak = int(input("Masukan Nominal: "))
+hasil = "Lunas" if pajak > 0 else "Hutang"
+print(hasil)
+    #Code jadi ringkas dan simple dari materi 2\ If-Else
