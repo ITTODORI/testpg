@@ -22,8 +22,10 @@ pekerja = int(input("Info loker: "))
 if pekerja >= 20:
     print("PT JokoUI")
 elif pekerja >= 50:
+    print("PT gibRun")
+elif pekerja >= 70:
     print("PT SawitDB")
-elif pekerja >= 50:
-    print("PT gibRUN")
+elif pekerja >= 80:
+    print("PT PraboGO")
 else:
     print("HIDUP JOKOWI !")
