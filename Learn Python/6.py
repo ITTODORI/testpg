@@ -16,3 +16,14 @@ if nilai >= 60:
     print("Anda Lulus")
 else:
     print("Anda tidak Lulus")
+
+# 3\ Elif (Else - If)
+pekerja = int(input("Info loker: "))
+if pekerja >= 20:
+    print("PT JokoUI")
+elif pekerja >= 50:
+    print("PT SawitDB")
+elif pekerja >= 50:
+    print("PT gibRUN")
+else:
+    print("HIDUP JOKOWI !")
