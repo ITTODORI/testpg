@@ -50,4 +50,4 @@ if username == "loker":
     else:
         print("Mana 19jt loker yang kau janjikan itu?!")
 else:
-    print("Database telah Bocor")
+    print("Indonesia CEMAS KAU DEK !!")
