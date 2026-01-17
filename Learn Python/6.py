@@ -29,3 +29,14 @@ elif pekerja >= 80:
     print("PT PraboGO")
 else:
     print("HIDUP JOKOWI !")
+
+# 4\ Operator Logic
+umur = int(input("Masukan umur: "))
+ijazah = input("Punya Ijazah? (asli/palsu): ")
+
+if umur >= 17 and ijazah == "asli":
+    print("Boleh bekerja")
+else:
+    print("Ijazahmu palsu ngn***")
+
+# 5\ Nested if
