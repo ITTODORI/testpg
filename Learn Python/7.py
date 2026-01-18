@@ -9,3 +9,14 @@ for i in range(1,6):
 
 for i in range(10, 0, -1):
     print("Ijazahmu Palsu!", i)
+
+# 2\ for Loop by Str
+framework = "JokoUI"
+for huruf in framework:
+    print(framework)
+
+Database = input("Platform")
+for huruf in Database:
+    print("=", Database)
+
+# 3\ While Loop
