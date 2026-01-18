@@ -29,7 +29,7 @@ jawaban = ""
 while jawaban != "Bahlil":
     jawaban = input("Siapa mentri ESDM? ")
     if jawaban != "Bahlil":
-        print("pelakunyu \'Bahlil\' Tololll....!")
+        print("pelakunya \'Bahlil\' Tololll....!")
 print("Lu yang milih, bukan gw!")
 
 # 4\ Break and Continues
