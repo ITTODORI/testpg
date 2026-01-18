@@ -8,7 +8,7 @@ for i in range(1,6):
     print("Deforestasi Sawit", 1)
 
 for i in range(10, 0, -1):
-    print("Ijazahmu Palsu!", i)
+    print(i, "Ijazahmu Palsu!")
 
 # 2\ for Loop by Str
 framework = "JokoUI"
@@ -29,7 +29,7 @@ jawaban = ""
 while jawaban != "Bahlil":
     jawaban = input("Siapa mentri ESDM? ")
     if jawaban != "Bahlil":
-        print("di bilangin \'Bahlil\' Tololll....!")
+        print("pelakunyu \'Bahlil\' Tololll....!")
 print("Lu yang milih, bukan gw!")
 
 # 4\ Break and Continues
