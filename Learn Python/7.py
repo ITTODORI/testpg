@@ -53,4 +53,4 @@ while True:
         print("Waghh..! KAGET")
         break
     else:
-        print("whoo.. yaa ndak tau kok tanya saya")
+        print("whoo.. yaa ndak tau kok tanya-tanya saya")
