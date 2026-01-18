@@ -33,7 +33,7 @@ while jawaban != "Bahlil":
 print("Lu yang milih, bukan gw!")
 
 # 4\ Break and Continues
-ijazah_rahasia = 7
+ijazah_rahasia = 8
 
 while True:
     jawaban = int(input("Presiden Prabowo berada di nomor berapa? "))
@@ -47,7 +47,7 @@ while True:
 ijazah_rahasia = "Mulyono"
 
 while True:
-    jawaban = input("Siapa nama kecil/asli Presiden ke-7? ")
+    jawaban = input("Dokumen rahasia nama Presiden ke-7? ")
     
     if jawaban == ijazah_rahasia:
         print("Waghh..! KAGET")
