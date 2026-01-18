@@ -59,7 +59,7 @@ match gaji:
     case "senin" | "selasa" | "rabu" | "kamis" | "jumat" :
         print("Hari Gajian")
     case "sabtu" | "ahad" :
-        print("Gaji Lemburan")
+        print("Gaji Lembur")
     case _:
         print("Hari tidak Kerja")
 
