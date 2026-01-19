@@ -54,3 +54,10 @@ while True:
         break
     else:
         print("whoo.. yaa ndak tau kok tanya-tanya saya")
+
+# 5\ Continue
+for i in range(10):
+    if i % 2 == 0=
+        if i % 2 == 0:      # jika ganjil
+            continue        # lewati, lanjut angka berikutnya
+        print(i, "Ganjil")  # hanya mencetak ganjil
