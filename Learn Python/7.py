@@ -69,16 +69,16 @@ search = input("Searching : ")
 
 for key in char:
     if key == search:
-        print("key :", search, "DOKSIL")
+        print("key :", search, "| DOKSIL!")
         break
 else:
-    print("key :", search, "Data bersifat Private Govt!")
+    print("key :", search, "| Data bersifat Private Govt!")
 
 # Keyword
 keyword = input("DOKSIL : ")
 search = input("Searching : ")
 
 if search in keyword:
-        print("Word :", search, "DOKSIL")
+        print("Word >", search, "DOKSIL")
 else:
-    print("Word :", "\'",search,"\'", "Data bersifat Private Govt!")
+    print("Word >", "\'",search,"\'", "Data bersifat Private Govt!")
