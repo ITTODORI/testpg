@@ -81,3 +81,20 @@ if search in keyword:
         print("Word >", "\'",search,"\'", "DOKSIL")
 else:
     print("Word >", "\'",search,"\'", "Data bersifat Private Govt!")
+
+# 7\ while Else
+# Password with trial limits
+passwordFIX = "Termulator"
+trial = 0
+max_trial = 3
+while trial < max_trial:
+    password = input("Password: ")
+    trial += 1
+    
+    if  password == passwordFIX:
+        print("Login Succes!")
+        break
+    else:
+        print("Password wrong! trial:", max_trial - trial)
+else:
+    print("Acces Denied! too many failed attempts")
