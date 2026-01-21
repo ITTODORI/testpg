@@ -98,3 +98,11 @@ while trial < max_trial:
         print("Password wrong! trial:", max_trial - trial)
 else:
     print("Acces Denied! too many failed attempts")
+
+# 8\ Nested loop
+print("tabel list 1-5: ")
+for i in range(1,6):
+    for j in range(1,6):
+        result = i * j
+        print(i, "x", j, "=", result)
+    print("____________")
