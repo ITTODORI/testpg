@@ -57,10 +57,9 @@ while True:
 
 # 5\ Continue
 for i in range(10):
-    if i % 2 == 0=
-        if i % 2 == 0:      # jika ganjil
-            continue        # lewati, lanjut angka berikutnya
-        print(i, "Ganjil")  # hanya mencetak ganjil
+    if i % 2 == 0:      # jika ganjil
+        continue        # lewati, lanjut angka berikutnya
+    print(i, "Ganjil")  # hanya mencetak ganjil
 
 # 6\ for Else
 # character letters
