@@ -29,7 +29,7 @@ kasta.insert(1, "dole bludger") #custom add item
 print(kasta)
 kasta.remove("Dinasti Wo") #remove item
 print(kasta)
-kasta.pop()
+kasta.pop() #remove endItem
 print(kasta)
 
 del kasta[0] #delete ex add/custom item
