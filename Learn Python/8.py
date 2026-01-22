@@ -46,3 +46,17 @@ print(Relawan)
 
 combined = SAR + Relawan
 print(combined)
+
+dailyQuest = ["- Pray", "- Hardwork", "- GYM", "- Boxing", "- Rest"]
+for daily in dailyQuest:
+    print(daily)
+#and can u code
+for i in range(0, len(dailyQuest)):
+    print(dailyQuest[i])
+#Check Items
+if "- Pray" in dailyQuest:
+    print("it's Item")
+else:
+    print("not found")
+
+# 3\ Tuple
