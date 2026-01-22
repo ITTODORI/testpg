@@ -8,3 +8,5 @@ print(topHero)
 
 statHero = ["Termulator", 90, "Bahlol", 60, "PraboGO", 85]
 print(statHero)
+
+# 2\ Manipulation
