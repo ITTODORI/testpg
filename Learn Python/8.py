@@ -65,7 +65,7 @@ point = (5,10)
 print(point[0])
 print(point[1])
 
-date = (02,9,1998)
+date = (2,9,1998)
 print("Date: ", date)
 
 for e in date:
