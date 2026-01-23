@@ -97,3 +97,5 @@ for key in spyDocument:
 #Int/switch key-value pairs
 for key, value in spyDocument.items():
     print(key,"=", value)
+
+# 4\ Set
