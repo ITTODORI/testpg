@@ -91,9 +91,9 @@ print(spyDocument)
 #Delete key-value
 del spyDocument["Periode"]
 print(spyDocument)
-#Int key
+#Int/switch key
 for key in spyDocument:
     print(key,":", spyDocument[key])
-#Int key-value pairs
+#Int/switch key-value pairs
 for key, value in spyDocument.items():
     print(key,"=", value)
