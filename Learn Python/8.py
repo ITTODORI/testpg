@@ -39,12 +39,12 @@ jasa = ["Honorer", "Freelancer", "Ustadz"]
 print(len(jasa))
 
 # Combination
-SAR = [1,2,3,4,5]
-print(SAR)
-Relawan = [6,7,8,9,10]
-print(Relawan)
+hotel = [1,2,3,4,5]
+print(hotel)
+room = [6,7,8,9,10]
+print(room)
 
-combined = SAR + Relawan
+combined = hotel + room
 print(combined)
 
 dailyQuest = ["- Pray", "- Hardwork", "- GYM", "- Boxing", "- Rest"]
