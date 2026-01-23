@@ -60,3 +60,16 @@ else:
     print("not found")
 
 # 3\ Tuple
+# tidak bisa operasi untuk Edit/Hapus data (Permanen)
+point = (5,10)
+print(point[0])
+print(point[1])
+
+date = (02,9,1998)
+print("Date: ", date)
+
+for e in date:
+    print(e)
+    
+for i in range(len(date)):
+    print(date[i])
