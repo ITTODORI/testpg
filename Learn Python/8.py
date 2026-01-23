@@ -88,3 +88,12 @@ print(spyDocument["Periode"])
 #Edit Value
 spyDocument["Officiate"] = 2018
 print(spyDocument)
+#Delete key-value
+del spyDocument["Periode"]
+print(spyDocument)
+#Int key
+for key in spyDocument:
+    print(key,":", spyDocument[key])
+#Int key-value pairs
+for key, value in spyDocument.items():
+    print(key,"=", value)
