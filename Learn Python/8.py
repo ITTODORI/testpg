@@ -10,7 +10,12 @@ statHero = ["Termulator", 90, "Bahlol", 60, "PraboGO", 85]
 print(statHero)
 
 # 2\ Manipulation
-skill = ["Termul : Kekuatan Dinasi Wo (Pasif)", "Termul : Ijazah Palsu (Basic)", "GibRUN : Rain Arrow 19jt LOKER (AoE)", "Nyawit : racun MBG sawit (Ultimate)"]
+skill = [
+    "Termul : Kekuatan Dinasi Wo (Pasif)", 
+    "Termul : Ijazah Palsu (Basic)", 
+    "GibRUN : Rain Arrow 19jt LOKER (AoE)", 
+    "Nyawit : racun MBG sawit (Ultimate)"
+    ]
 print(skill[0])
 print(skill[1])
 print(skill[2])
