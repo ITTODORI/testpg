@@ -73,3 +73,18 @@ for e in date:
     
 for i in range(len(date)):
     print(date[i])
+
+# 4\ Dictionary {key-value}
+#Dictionary Data
+spyDocument = {
+    "Name" : "Mulyono",
+    "Officiate" : 2014,
+    "Periode" : "2 Periode",
+}
+print(spyDocument)
+print(spyDocument["Name"])
+print(spyDocument["Periode"])
+
+#Edit Value
+spyDocument["Officiate"] = 2018
+print(spyDocument)
