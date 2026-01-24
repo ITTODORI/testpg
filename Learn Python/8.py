@@ -104,3 +104,14 @@ for key, value in spyDocument.items():
     print(key,"=", value)
 
 # 4\ Set
+title = {
+    "DPR",
+    "PNS",
+    "MBG"
+}
+title.add("PPPK")
+print(title)
+title.remove("MBG")
+print(title)
+for i in title:
+    print(i)
