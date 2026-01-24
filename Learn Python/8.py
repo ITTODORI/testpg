@@ -52,7 +52,13 @@ print(room)
 combined = hotel + room
 print(combined)
 
-dailyQuest = ["- Pray", "- Hardwork", "- GYM", "- Boxing", "- Rest"]
+dailyQuest = [
+    "- Pray",
+    "- Hardwork",
+    "- GYM",
+    "- Boxing",
+    "- Rest"
+    ]
 for daily in dailyQuest:
     print(daily)
 #and can u code
