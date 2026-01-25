@@ -17,6 +17,6 @@ pejabat("luHUB")
 
 def info(lahan, sawit):
     pekerja = lahan * sawit
-    print("Tenaga Kerja: ", pekerja, "Pekerja")
+    print("Tenaga Kerja:", pekerja, "Pekerja")
 
 info(250, 76000)
