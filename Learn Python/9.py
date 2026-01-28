@@ -90,3 +90,16 @@ data()
 print(realName)
 
 # 7\ Parameter Dinamic
+def dataList(*list):
+    for item in list:
+        print(item)
+
+dataList(1, 2,3 ,4, 5)
+dataList("jokoUI", "luHUB", "gibRUN", "praboGO")
+
+def dataList(**dictionary):
+    for key, value in dictionary.items():
+        print(f"{key}: {value}")
+
+dataList(Hero="Termulator", Role="Fighter", Rate=8.2)
+dataList(Hero="bahLOL", Role="Magic", Rate=6.2)
