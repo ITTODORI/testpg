@@ -37,3 +37,12 @@ else:
         print("stats", "Negaitve")
     else:
         print("Null")
+
+# 4\ Try Except Finally
+try:
+    size = int(input("Ratio Size: "))
+    print("Ratio:", size)
+except ValueError:
+    print("Ratio not Valid!")
+finally:
+    print("Program its run")
