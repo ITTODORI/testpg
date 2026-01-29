@@ -15,18 +15,3 @@ print(hero["Skill"])
     # > KeyError, key tidak valid
 print(10 / 0)
     # > ZeroDivision, pembagian dengan 0
-
-# Fixed Error
-# 1\ Try-Except
-print("=== KALKULATOR SEDERHANA ===")
-
-try:
-    angka1 = int(input("Angka pertama: "))
-    angka2 = int(input("Angka kedua: "))
-    hasil = angka1 / angka2
-    print("Hasil:", hasil)
-except:
-    print("Terjadi error dalam perhitungan bahlil!")
-print("===MENUJU GENERASI EMAS===")
-
-# 2\ Specifik Error
