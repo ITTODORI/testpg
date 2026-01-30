@@ -30,4 +30,25 @@ for line in file:
     data = line.strip().split(",") # mengubah ","
     print(data[0], ":", data[1])
 file.close()
-print("==========")
+print("====================")
+
+# 3\ With Statement (Recomended)
+print("===| Open DATABASE |===")
+with open("12-DATABASE.txt", "r") as file:
+    for line in file:
+        data = line.strip().split(",")
+        print(data[0], "> ", data[1])
+print("====================") # so simple code, not file.close
+
+# 4\ Error Handling file
+print("===| Open DATABASE |===")
+
+try:
+    with open("DATABASE.txt", "r") as file: # EROR FileNotFound
+        for line in file:
+            data = line.strip().split(",")
+            print(data[0], "> ", data[1])
+except FileNotFoundError:
+    print("DATABASE PALSU!")
+
+print("====================")
