@@ -21,3 +21,13 @@ while True:
 
 file.close()
 print("=== Program is DONE! ===")
+
+# 2\ Read file
+print("===| OPEN FILE |===")
+file = open("12-DATABASE.txt", "r")
+
+for line in file:
+    data = line.strip().split(",") # mengubah ","
+    print(data[0], ":", data[1])
+file.close()
+print("==========")
