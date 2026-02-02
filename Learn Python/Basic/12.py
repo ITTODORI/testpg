@@ -16,7 +16,7 @@ while True:
         break
     stats = input("Stats: ")
 
-    file.write(hero + ", " + stats + "\n")
+    file.write(hero + "," + stats + "\n")
     print("Database", hero, "has saved")
 
 file.close()
@@ -52,3 +52,11 @@ except FileNotFoundError:
     print("DATABASE PALSU!")
 
 print("====================")
+
+# 5\ IMPORT
+import fileIMPORT
+
+print(fileIMPORT.hero) #print import by variable 'hero'
+
+result = fileIMPORT.data(8,2) #configuration file import in variable 'data'
+print("Rate > ",result)
