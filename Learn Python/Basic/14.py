@@ -1,13 +1,13 @@
 # PACKAGE
 import package.pack
-from package import fisika
-from package.fisika import gaya as gaya
+from package import physics
+from package.physics import physics as gaya
 
 result_x = package.pack.multiplication(1,2,3,4,5)
 print(f"Saldo x : {result_x}")
 
-gaya = fisika.gaya(90,10)
-print(f"Gaya > {gaya}")
+force = physics.force(90,10)
+print(f"Force > {force}")
 
-gaya = gaya(90,10)
-print(f"Gaya > {gaya}")
+force = gaya(90,10)
+print(f"Force > {gaya}")
