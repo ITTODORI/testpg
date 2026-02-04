@@ -24,8 +24,9 @@ print(f"Force > {force}")
 # CUSTUMIZE INIT
 from package import *
 
-result_sum = package.pack.summation(1,2,3,4,5)
-print(f"Result + : {result_sum}")
+squarer = pack.exponents(2) 
+exp = squarer(5) 
+print(f"Result Exponents : {exp}")
 
-force = package.physics.force(23,778)
-print(f"Force > {force}")
+force = physics.force(123,76)
+print(f"Result Force > {force}")
