@@ -12,7 +12,7 @@ print(f"Force > {force}")
 force = gaya(90,20)
 print(f"Force > {force}")
 
-# __init__.py
+# 1\ __init__.py
 import package
 
 result_sum = package.pack.summation(1,2,3,4,5)
@@ -21,7 +21,7 @@ print(f"Result + : {result_sum}")
 force = package.physics.force(23,778)
 print(f"Force > {force}")
 
-# CUSTUMIZE INIT
+# 2\ CUSTUMIZE INIT (noRecomen)
 from package import *
 
 squarer = pack.exponents(2) 
