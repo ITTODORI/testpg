@@ -4,6 +4,10 @@
 from . import pack #fungsi '.' adalah local file yang ada pada import
 from . import physics
 
+# changing simply
+from . pack import exponents,multiplication
+
+
 # CUSTUMIZE IMPORT * by INIT
 __all__ =[
     "pack",

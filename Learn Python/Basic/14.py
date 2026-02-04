@@ -14,12 +14,21 @@ print(f"Force > {force}")
 
 # 1\ __init__.py
 import package
+from package.data import scientific
 
 result_sum = package.pack.summation(1,2,3,4,5)
 print(f"Result + : {result_sum}")
 
 force = package.physics.force(23,778)
 print(f"Force > {force}")
+
+# changing
+resultExp = package.pack.exponents(3)
+print(f"Result Exp : {resultExp(5)}")
+
+datatExp = scientific.exponents(24)
+print(f"Data Exp : {resultExp(75)}")
+
 
 # 2\ CUSTUMIZE INIT (noRecomen)
 from package import *
