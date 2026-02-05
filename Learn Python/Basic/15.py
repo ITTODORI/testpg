@@ -32,3 +32,4 @@ print(f"Jumlah Termulator = {data_count['praboGO']}")
 import io
 
 file = io.open("Read_TEXT.txt", "r")
+print(file.read())
