@@ -10,14 +10,25 @@ print(f"Day > {data_time.strftime('%A')}") #in Library datetime
 from collections import Counter
 
 count = 0
-data = ["a", "b", "c", "d"]
+data = ["a", "b", "c", "d", "a", "c", "d", "a"]
 for i in data:
     if i == "a":
         count += 1
 print(count)
 
 # - Simply
-data = ["a", "b", "c", "d"]
+data = [
+    "Termulator", 
+    "bahLEL",
+    "praboGO", "GibRUN",  "Termulator","praboGO", "jokoUI", "Termulator"
+]
 data_count = Counter(data)
 
 print(f"Data Count = {data_count}")
+print(f"Jumlah Termulator = {data_count['Termulator']}")
+print(f"Jumlah Termulator = {data_count['praboGO']}")
+
+# - Read TEXT
+import io
+
+file = io.open("Read_TEXT.txt", "r")
