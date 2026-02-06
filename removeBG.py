@@ -4,23 +4,27 @@
 from rembg import remove
 from PIL import Image
 
-og_img = ""
-remove_bg = ""
+og_img = "Generated.jpg"
+remove_bg = "Generated.png"
 
-inp = Image.open(og_img)
-out = remove(inp)
-out.save(remove_bg)
+try:
+    inp = Image.open(og_img)
+    out = remove(inp)
+    out.save(f"Succes {remove_bg}")
+
+except FileNotFoundError:
+    print("Error: file not found! pls check it.")
 
 # source --> clcoding.com
-import cv2, numpy as np
+# import cv2, numpy as np #install pip install opencv-python numpy
 
-img = cv2.imread("image.jpg")
-mask = np.zeros(img.shape[:2], np.uint8)
+# img = cv2.imread("Generated.jpg")
+# mask = np.zeros(img.shape[:2], np.uint8)
 
-bg, fg = np.zeros((1,65)), np.zeros((1,65))
-rect =(10, 10, img.shape[1]-20, img.shape[0]-20)
+# bg, fg = np.zeros((1,65)), np.zeros((1,65))
+# rect =(10, 10, img.shape[1]-20, img.shape[0]-20)
 
-cv2.grabCut(img, mask, rect, bg, fg, 5, cv2.GC_INIT_WITH_RECT)
-mask = np.where((mask == 0)|(mask == 2), 0,1).astype("uint8")
+# cv2.grabCut(img, mask, rect, bg, fg, 5, cv2.GC_INIT_WITH_RECT)
+# mask = np.where((mask == 0)|(mask == 2), 0,1).astype("uint8")
 
-cv2.imwrite("output.png", img * mask[:, :, None])
+# cv2.imwrite("output.png", img * mask[:, :, None])
