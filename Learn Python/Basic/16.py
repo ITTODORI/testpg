@@ -33,7 +33,9 @@ pass_entry.pack(padx=10,fill="x",expand=True)
 
 # Button
 def button_click():
-    print(f"Login Succes {EMAIL}.get()")
+    '''function Notice Messager'''
+    notice = f"Login Succes {EMAIL.get()}"
+    showinfo(title="Login Notice",message=notice)
 
 click_button = ttk.Button(input_frame,text="Login",command=button_click)
 click_button.pack(fill='x', expand=True,pady=10,padx=10)
