@@ -18,15 +18,20 @@ print(count)
 
 # - Simply
 data = [
-    "Termulator", 
+    "Termulator",
     "bahLEL",
-    "praboGO", "GibRUN",  "Termulator","praboGO", "jokoUI", "Termulator"
+    "praboGO",
+    "GibRUN",
+    "Termulator",
+    "praboGO",
+    "jokoUI",
+    "Termulator"
 ]
 data_count = Counter(data)
 
 print(f"Data Count = {data_count}")
 print(f"Jumlah Termulator = {data_count['Termulator']}")
-print(f"Jumlah Termulator = {data_count['praboGO']}")
+print(f"Jumlah praboGO    = {data_count['praboGO']}")
 
 # - Read TEXT
 import io
