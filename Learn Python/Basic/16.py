@@ -1,12 +1,14 @@
 # GUI : Graphical User Interface
 import tkinter as tk
 
+# INIT
 app = tk.Tk()
 app.configure(bg="black")
 app.geometry("1080x1920")
 app.resizable(False,False)
 app.title("Mini Apps")
 
+# VAR
 EMAIL = ttk.StringVar()
 PASSWORD = ttk.StringVar()
 
