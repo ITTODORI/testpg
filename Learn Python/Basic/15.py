@@ -34,7 +34,21 @@ print(f"Jumlah Termulator = {data_count['Termulator']}")
 print(f"Jumlah praboGO    = {data_count['praboGO']}")
 
 # - Read TEXT
-import io
+# import io
 
-file = io.open("Read_TEXT.txt", "r")
-print(file.read())
+# file = io.open("Read_TEXT.txt","r")
+# print(file.read())
+
+# GUI : Graphical User Interface
+import tkinter as tk
+
+app = tk.Tk()
+app.configure(bg="black")
+app.geometry("1080x1920")
+app.resizable(False,False)
+app.title("Mini Apps")
+
+# Frame Input
+input_frame = 
+
+app.mainloop()
