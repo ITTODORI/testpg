@@ -38,17 +38,3 @@ print(f"Jumlah praboGO    = {data_count['praboGO']}")
 
 # file = io.open("Read_TEXT.txt","r")
 # print(file.read())
-
-# GUI : Graphical User Interface
-import tkinter as tk
-
-app = tk.Tk()
-app.configure(bg="black")
-app.geometry("1080x1920")
-app.resizable(False,False)
-app.title("Mini Apps")
-
-# Frame Input
-input_frame = 
-
-app.mainloop()
