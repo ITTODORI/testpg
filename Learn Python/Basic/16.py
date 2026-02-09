@@ -25,7 +25,7 @@ mail_entry = ttk.Entry(input_frame, textvariable=EMAIL)
 mail_entry.pack(padx=10,fill="x",expand=True)
 
 # - Password
-pass_label = ttk.Label(input_frame, text="Email")
+pass_label = ttk.Label(input_frame, text="Password")
 pass_label.pack(padx=10,fill="x",expand=True)
 
 pass_entry = ttk.Entry(input_frame, textvariable=PASSWORD)
