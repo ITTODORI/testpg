@@ -1,21 +1,19 @@
-# GUI : Graphical User Interface
 import tkinter as tk
+from tkinter import ttk
 
-# INIT
+# initialize the main application window
 app = tk.Tk()
-app.configure(bg="black")
-app.geometry("1080x1920")
-app.resizable(False,False)
-app.title("Mini Apps")
+app.title("Mobile App")
+app.configure(bg="white")
+app.geometry("480x853")
+app.resizable(False, False)
 
-# VAR
-EMAIL = ttk.StringVar()
-PASSWORD = ttk.StringVar()
+EMAIL = tk.StringVar()
+PASSWORD = tk.StringVar()
 
-# Frame Input
-input_frame = ttk.Frame(app)
-# Place, Grid, Pack
-input_frame.pack(padx=10,pady-10,fill="x",expand=True)
+# Frame
+input_frame = ttk.Frame(app, width=480, height=853)
+input_frame.pack(padx=10,pady=10,fill="x",expand=True)
 
 # Components
 # - Email
@@ -41,5 +39,6 @@ def button_click():
 
 click_button = ttk.Button(input_frame,text="Login",command=button_click)
 click_button.pack(fill='x', expand=True,pady=10,padx=10)
+
 
 app.mainloop()
