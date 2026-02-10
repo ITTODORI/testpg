@@ -6,6 +6,10 @@
     # pip uninstall <pip> / delete, remove, uninstal
 
 # NUMPY PACKAGE
-import numpy
+import numpy as np
 
-print(numpy)
+list a = [1,2,3,4]
+vector_a = np.array([1,2,3,4])
+
+print(f"list a = {list_a}")
+print(f"vector a = {vector_a}")
