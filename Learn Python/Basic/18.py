@@ -3,16 +3,17 @@ import pygame #pip pygame
 
 # init
 pygame.init()
-isRun = True
-
+pygame.display.set_caption("myPYGAME")
 window = pygame.display.set_mode((500,500))
 
+# Var
 x = 250
-y = 500
-
-high = 20
-large = 20
+y = 250
+width = 20
+height = 20
 speed = 10
+
+isRun = True
 
     # user input, database
 while isRun:
@@ -23,12 +24,12 @@ while isRun:
     keys = pygame.key.get_pressed()
     if keys[pygame.K_LEFT] and x > 0:
         x -= speed
-    if keys[pygame.K_RIGHT] and x < 500:
+    if keys[pygame.K_RIGHT] and x < 500 - width:
         x += speed
 
     # Asset
-    window.fill((255,255,255))
-    pygame.draw.rect(window,(255,0,0),(x,y,high,large))
+    window.fill((0,0,0))
+    pygame.draw.rect(window,(255,0,0),(x,y,width,height))
     # render
     pygame.display.update()
 
