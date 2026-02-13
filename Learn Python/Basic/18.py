@@ -16,7 +16,7 @@ speed = 10
 
     # user input, database
 while isRun:
-    for even in pygame.event.get():
+    for event in pygame.event.get():
         if event.type == pygame.QUIT:
             isRun = False
     
