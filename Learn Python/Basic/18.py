@@ -72,7 +72,7 @@ MAX_SPEED = 8
 # Player Variables
 pos = pygame.math.Vector2(250, 250)
 vel = pygame.math.Vector2(0, 0)
-trail_positions = [] # Store past positions for the animation
+trail_positions = [] # Past positions for the animation
 
 run = True
 while run:
