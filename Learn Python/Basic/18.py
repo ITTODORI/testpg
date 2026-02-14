@@ -57,7 +57,7 @@ while run:
 pygame.quit()
 
 # VERSE.II
-# Init
+# Initilaze
 pygame.init()
 WIDTH, HEIGHT = 500, 500
 window = pygame.display.set_mode((WIDTH, HEIGHT))
@@ -119,7 +119,11 @@ while run:
         alpha = (i + 1) * 30 
         color = (0, alpha, alpha // 2)
         size_shrink = (6 - i) * 2
-        pygame.draw.rect(window, color, (p[0] + size_shrink/2, p[1] + size_shrink/2, 20 - size_shrink, 20 - size_shrink))
+        pygame.draw.rect(window, color, 
+                         (p[0] + size_shrink/2, 
+                          p[1] + size_shrink/2, 
+                          20 - size_shrink, 
+                          20 - size_shrink))
 
     # 5. ANIMATION LOGIC (Squash & Stretch)
     # The faster we go, the "longer" we get in that direction
