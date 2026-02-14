@@ -12,7 +12,7 @@ x, y = 250, 250
 vel_x, vel_y = 0, 0 # Velocity
 # Physics Constants
 accel = 0.8    # How fast it speeds up
-friction = 0.9 # How fast it slows down (0.9 = 10% loss per frame)
+friction = 0.9 # How fast it slows down (10% loss per frame)
 max_speed = 8
 
 run = True
@@ -37,7 +37,7 @@ while run:
     vel_x *= friction
     vel_y *= friction
 
-    # 3. Cap the speed (Optional, prevents infinite acceleration)
+    # 3. Cap the speed
     if vel_x > max_speed:  vel_x = max_speed
     if vel_x < -max_speed: vel_x = -max_speed
     if vel_y > max_speed:  vel_y = max_speed
