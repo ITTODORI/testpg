@@ -61,7 +61,7 @@ pygame.quit()
 pygame.init()
 WIDTH, HEIGHT = 500, 500
 window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Juicy Movement")
+pygame.display.set_caption("GAMEPY")
 clock = pygame.time.Clock()
 
 # Physics Constants
