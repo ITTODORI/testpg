@@ -73,13 +73,14 @@ FRICTION = 0.9
 MAX_SPEED = 6
 BLOCK_SIZE = 20
 
-# Player Variables
+# VARIABLES
+# varSnake
 pos = pygame.math.Vector2(WIDTH // 2, HEIGHT // 2)
 vel = pygame.math.Vector2(0, 0)
 snake_body = [] 
 snake_length = 5  # Initial length
 
-# Food Variables
+# varFood
 food_pos = pygame.math.Vector2(random.randint(50, WIDTH-50), random.randint(50, HEIGHT-50))
 
 def reset_game():
