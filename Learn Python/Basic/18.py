@@ -64,7 +64,7 @@ import random
 pygame.init()
 WIDTH, HEIGHT = 500, 500
 window = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("SNAKEPUY")
+pygame.display.set_caption("SNAKEPY")
 clock = pygame.time.Clock()
 
 # Physics & Game Constants
