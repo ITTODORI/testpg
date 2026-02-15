@@ -93,13 +93,13 @@ def reset_game():
 run = True
 while run:
     clock.tick(60)
-    window.fill((20, 20, 25)) # Slightly darker background
+    window.fill((20, 20, 25)) # drakBG
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
 
-    # 1. INPUT & PHYSICS (Your original logic)
+    # 1. INPUT & PHYSICS
     keys = pygame.key.get_pressed()
     accel_vec = pygame.math.Vector2(0, 0)
     if keys[pygame.K_LEFT]:  accel_vec.x -= ACCEL
@@ -114,7 +114,7 @@ while run:
 
     pos += vel
 
-    # 2. BOUNDARY WRAPPING (Snake style)
+    # 2. BOUNDARY WRAPPING (Snake)
     if pos.x > WIDTH: pos.x = 0
     if pos.x < 0: pos.x = WIDTH
     if pos.y > HEIGHT: pos.y = 0
@@ -127,13 +127,12 @@ while run:
         food_pos = pygame.math.Vector2(random.randint(20, WIDTH-20), random.randint(20, HEIGHT-20))
 
     # 4. SNAKE BODY LOGIC
-    # We record the position history. 
     # Every 4 frames of movement, we "solidify" a body segment.
     snake_body.append(list(pos))
     if len(snake_body) > snake_length * 4: # Multiply by 4 for a smoother trail
         snake_body.pop(0)
 
-    # 5. SELF-COLLISION (Game Over)
+    # 5. GAME OVER (Self-Collision)
     # Only check segments that aren't right behind the head
     for segment in snake_body[:-20]:
         seg_vec = pygame.math.Vector2(segment[0], segment[1])
@@ -144,7 +143,7 @@ while run:
     # Draw Food
     pygame.draw.rect(window, (255, 50, 50), (food_pos.x, food_pos.y, 15, 15))
 
-    # Draw Body (With your cool fade effect)
+    # Draw Body
     for i, p in enumerate(snake_body):
         if i % 4 == 0: # Only draw every 4th recorded position for "segments"
             alpha = min(255, (i + 1) * (255 // len(snake_body)))
