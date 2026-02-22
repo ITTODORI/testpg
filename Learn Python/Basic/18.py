@@ -127,7 +127,7 @@ while run:
         food_pos = pygame.math.Vector2(random.randint(20, WIDTH-20), random.randint(20, HEIGHT-20))
 
     # 4. SNAKE BODY LOGIC
-    # Every 4 frames of movement, we "solidify" a body segment.
+    # Every 4 frames of movement, we "Solidify" a body segment.
     snake_body.append(list(pos))
     if len(snake_body) > snake_length * 4: # Multiply by 4 for a smoother trail
         snake_body.pop(0)
@@ -145,9 +145,9 @@ while run:
 
     # Draw Body
     for i, p in enumerate(snake_body):
-        if i % 4 == 0: # Only draw every 4th recorded position for "segments"
+        if i % 4 == 0: # Only draw every 4th recorded position for "Segment"
             alpha = min(255, (i + 1) * (255 // len(snake_body)))
-            size = 10 + (i / len(snake_body)) * 10 # Tapered tail
+            size = 10 + (i / len(snake_body)) * 10 #Tapered tail
             pygame.draw.circle(window, (0, alpha, 150), (int(p[0]), int(p[1])), int(size/2))
 
     # Draw Head (Squash and Stretch)
@@ -160,3 +160,4 @@ while run:
     pygame.display.update()
 
 pygame.quit()
+
