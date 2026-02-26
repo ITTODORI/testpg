@@ -11,7 +11,7 @@ clock = pygame.time.Clock()
 x, y = 250, 250
 vel_x, vel_y = 0, 0 # Velocity
 # Physics Constants
-accel = 0.8    # How fast it speeds up
+accel = 0.8    # speeds up
 friction = 0.9 # How fast it slows down (10% loss per frame)
 max_speed = 8
 
@@ -33,7 +33,7 @@ while run:
     if keys[pygame.K_UP]:    vel_y -= accel
     if keys[pygame.K_DOWN]:  vel_y += accel
 
-    # 2. Apply Friction (Always slowing down slightly)
+    # 2. Apply Friction (slowing down slightly)
     vel_x *= friction
     vel_y *= friction
 
@@ -140,7 +140,7 @@ while run:
             reset_game()
 
     # 6. DRAWING
-    # Draw Food
+    # Food
     pygame.draw.rect(window, (255, 50, 50), (food_pos.x, food_pos.y, 15, 15))
 
     # Draw Body
