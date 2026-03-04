@@ -17,3 +17,9 @@ if __name__ == "__main__":
 
 ## Import packgae
 import package
+
+## Read External file
+print(3*"=", "Read file txt", 3*"=")
+
+file = open("data.txt", mode="r")
+print(file.read())
