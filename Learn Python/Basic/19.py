@@ -22,4 +22,6 @@ import package
 print(3*"=", "Read file txt", 3*"=")
 
 file = open("data.txt", mode="r")
+print(f"Status read : {file.readable()}")
+
 print(file.read())
