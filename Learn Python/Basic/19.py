@@ -14,3 +14,6 @@ if __name__ == "__main__":
     result = function_main(v1, v2)
     print(f"Result Program Gate = {result}")
     print("==================")
+
+## Import packgae
+import package
